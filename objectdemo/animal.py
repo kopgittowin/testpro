@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''比如创建一个类（Animal）【动物类】，类里有属性（名称，颜色，年龄，性别），类方法（会叫，会跑）'''
+import yaml
+import data
 
 
 class Animal:
@@ -94,9 +96,24 @@ class Dog(Animal):
 
 
 if __name__ == '__main__':
-    C_cat1 = Cat('kitty', 'white', 5, 'female', 'long')
+    with open('D:/testpro/data/pets.yml', encoding='utf-8') as f:
+        datas = yaml.safe_load(f)
+    # print(datas)
+    # 猫
+    C_name = datas['cat']['name']
+    C_color = datas['cat']['color']
+    C_age = datas['cat']['age']
+    C_gender = datas['cat']['gender']
+    C_hair = datas['cat']['hair']
+    C_cat1 = Cat(C_name, C_color, C_age, C_gender, C_hair)
     C_cat1.Call()
     C_cat1.Catch()
-    D_dog1 = Dog('Rocky', 'yellow', 3, 'male', 'short')
+    # 狗
+    D_name = datas['dog']['name']
+    D_color = datas['dog']['color']
+    D_age = datas['dog']['age']
+    D_gender = datas['dog']['gender']
+    D_hair = datas['dog']['hair']
+    D_dog1 = Dog(D_name, D_color, D_age, D_gender, D_hair)
     D_dog1.Call()
     D_dog1.Watch()

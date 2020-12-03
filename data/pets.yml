@@ -1,0 +1,13 @@
+cat:
+  name: kitty
+  color: white
+  age: 5
+  gender: female
+  hair: long
+
+dog:
+  name: Rocky
+  color: yellow
+  age: 3
+  gender: male
+  hair: short
