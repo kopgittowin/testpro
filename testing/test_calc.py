@@ -14,15 +14,15 @@ with open('./datas/calc.yml', encoding='utf-8') as f:
     div_data = datas_div['datas_div']
 
 
-class TestCalc_add:
+class Test_Calc:
 
     def setup_class(self):
         # 实例化计算器类
-        print('开始计算：验证加法')
+        print('开始计算')
         self.calc = Calculator()
 
     def teardown_class(self):
-        print('结束计算：验证加法')
+        print('结束计算')
 
     @pytest.mark.parametrize(
         'a, b, expected',
@@ -35,17 +35,6 @@ class TestCalc_add:
             result = round(result, 2)
         # 得到结果之后，需要写断言
         assert result == expected
-
-
-class TestCalc_div:
-
-    def setup_class(self):
-        # 实例化计算器类
-        print('开始计算：验证除法')
-        self.calc = Calculator()
-
-    def teardown_class(self):
-        print('结束计算：验证除法')
 
     @pytest.mark.parametrize(
         'c, d, expected_div',
