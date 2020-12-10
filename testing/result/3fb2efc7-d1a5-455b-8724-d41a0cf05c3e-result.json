@@ -1,0 +1,73 @@
+{
+  "name": "test_sub[float]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "计算两数相减",
+      "status": "passed",
+      "start": 1607616128531,
+      "stop": 1607616128531
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "17086776-d90e-4864-80bd-5eb1cec93293-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_sub_datas",
+      "value": "[0.5, 0.1, 0.4]"
+    }
+  ],
+  "start": 1607616128531,
+  "stop": 1607616128531,
+  "uuid": "519766aa-9821-4762-9170-52241cb066be",
+  "historyId": "5d66f5e60d4e71804a1287fa1a928b61",
+  "testCaseId": "f2e2f1b1b546d3f480af7c675855a5e5",
+  "fullName": "test_calc.Test_Calc#test_sub",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "story",
+      "value": "测试减法"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=2)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_Calc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-35VVH9N3"
+    },
+    {
+      "name": "thread",
+      "value": "10060-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

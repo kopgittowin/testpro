@@ -1,0 +1,4 @@
+开始减法计算
+sub方法测试数据['asd', 8, '请输入数字']
+unsupported operand type(s) for -: 'str' and 'int'
+结束计算

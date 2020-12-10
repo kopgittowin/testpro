@@ -1,0 +1,452 @@
+{
+  "uid": "b1a8273437954620fa374b796ffaacdd",
+  "name": "behaviors",
+  "children": [
+    {
+      "name": "测试计算器",
+      "children": [
+        {
+          "name": "测试加法",
+          "children": [
+            {
+              "name": "test_add[int]",
+              "uid": "8d7c125fd8c9d670",
+              "parentUid": "71987810c8f4843f10b89582ae833c2f",
+              "status": "passed",
+              "time": {
+                "start": 1607616128149,
+                "stop": 1607616128149,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[1, 10, 11]"
+              ]
+            },
+            {
+              "name": "test_add[+float]",
+              "uid": "f6bc3f71737b7407",
+              "parentUid": "71987810c8f4843f10b89582ae833c2f",
+              "status": "passed",
+              "time": {
+                "start": 1607616128157,
+                "stop": 1607616128157,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[0.1, 0.1, 0.2]"
+              ]
+            },
+            {
+              "name": "test_add[fail]",
+              "uid": "24b705e8bb40202f",
+              "parentUid": "71987810c8f4843f10b89582ae833c2f",
+              "status": "failed",
+              "time": {
+                "start": 1607616128165,
+                "stop": 1607616128165,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[0.2, 0.2, 0.5]"
+              ]
+            },
+            {
+              "name": "test_add[-float]",
+              "uid": "b31cfc93d757d965",
+              "parentUid": "71987810c8f4843f10b89582ae833c2f",
+              "status": "passed",
+              "time": {
+                "start": 1607616128314,
+                "stop": 1607616128314,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[-0.2, -0.2, -0.4]"
+              ]
+            },
+            {
+              "name": "test_add[-int]",
+              "uid": "34c53069a63439f5",
+              "parentUid": "71987810c8f4843f10b89582ae833c2f",
+              "status": "passed",
+              "time": {
+                "start": 1607616128322,
+                "stop": 1607616128322,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[-1, -1, -2]"
+              ]
+            },
+            {
+              "name": "test_add[float&int]",
+              "uid": "34b97fc684f64d01",
+              "parentUid": "71987810c8f4843f10b89582ae833c2f",
+              "status": "passed",
+              "time": {
+                "start": 1607616128463,
+                "stop": 1607616128463,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[50.6, 45, 95.6]"
+              ]
+            },
+            {
+              "name": "test_add[-float&-int]",
+              "uid": "14b7cbc540624db2",
+              "parentUid": "71987810c8f4843f10b89582ae833c2f",
+              "status": "passed",
+              "time": {
+                "start": 1607616128471,
+                "stop": 1607616128471,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[-25.4, -50, -75.4]"
+              ]
+            },
+            {
+              "name": "test_add[-float&int]",
+              "uid": "c704dacad1c77944",
+              "parentUid": "71987810c8f4843f10b89582ae833c2f",
+              "status": "passed",
+              "time": {
+                "start": 1607616128479,
+                "stop": 1607616128479,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[-25.4, 50, 24.6]"
+              ]
+            },
+            {
+              "name": "test_add[float&-int]",
+              "uid": "f3445be710b828b",
+              "parentUid": "71987810c8f4843f10b89582ae833c2f",
+              "status": "passed",
+              "time": {
+                "start": 1607616128487,
+                "stop": 1607616128487,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[25.4, -50, -24.6]"
+              ]
+            },
+            {
+              "name": "test_add[空格]",
+              "uid": "c05fa15515cd449e",
+              "parentUid": "71987810c8f4843f10b89582ae833c2f",
+              "status": "failed",
+              "time": {
+                "start": 1607616128499,
+                "stop": 1607616128503,
+                "duration": 4
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "['', 5, '请输入数字']"
+              ]
+            }
+          ],
+          "uid": "71987810c8f4843f10b89582ae833c2f"
+        },
+        {
+          "name": "测试减法",
+          "children": [
+            {
+              "name": "test_sub[int]",
+              "uid": "99a7dab55cfa38af",
+              "parentUid": "11486d742f984dca37e4115dc62bd248",
+              "status": "passed",
+              "time": {
+                "start": 1607616128523,
+                "stop": 1607616128523,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[10, 1, 9]"
+              ]
+            },
+            {
+              "name": "test_sub[float]",
+              "uid": "11bd7ce61406eebb",
+              "parentUid": "11486d742f984dca37e4115dc62bd248",
+              "status": "passed",
+              "time": {
+                "start": 1607616128531,
+                "stop": 1607616128531,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[0.5, 0.1, 0.4]"
+              ]
+            },
+            {
+              "name": "test_sub[fail]",
+              "uid": "374f55e5c50f8429",
+              "parentUid": "11486d742f984dca37e4115dc62bd248",
+              "status": "failed",
+              "time": {
+                "start": 1607616128539,
+                "stop": 1607616128543,
+                "duration": 4
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[3, 2, 0.5]"
+              ]
+            },
+            {
+              "name": "test_sub[negative]",
+              "uid": "655a4e7d58afab4",
+              "parentUid": "11486d742f984dca37e4115dc62bd248",
+              "status": "passed",
+              "time": {
+                "start": 1607616128555,
+                "stop": 1607616128555,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[-8, -0.2, -7.8]"
+              ]
+            },
+            {
+              "name": "test_sub[非数字]",
+              "uid": "153b9d8b67b0f934",
+              "parentUid": "11486d742f984dca37e4115dc62bd248",
+              "status": "failed",
+              "time": {
+                "start": 1607616128567,
+                "stop": 1607616128567,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "['asd', 8, '请输入数字']"
+              ]
+            }
+          ],
+          "uid": "11486d742f984dca37e4115dc62bd248"
+        },
+        {
+          "name": "测试乘法",
+          "children": [
+            {
+              "name": "test_mul[int]",
+              "uid": "f31e79eb76533517",
+              "parentUid": "b004000ef2fb804451ad4226c151f42c",
+              "status": "passed",
+              "time": {
+                "start": 1607616128583,
+                "stop": 1607616128583,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[10, 1, 10]"
+              ]
+            },
+            {
+              "name": "test_mul[float]",
+              "uid": "69406c99ab0c63f5",
+              "parentUid": "b004000ef2fb804451ad4226c151f42c",
+              "status": "passed",
+              "time": {
+                "start": 1607616128587,
+                "stop": 1607616128587,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[0.5, 0.1, 0.05]"
+              ]
+            },
+            {
+              "name": "test_mul[fail]",
+              "uid": "dd643a676e245849",
+              "parentUid": "b004000ef2fb804451ad4226c151f42c",
+              "status": "failed",
+              "time": {
+                "start": 1607616128599,
+                "stop": 1607616128599,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[3, 2, 0.5]"
+              ]
+            },
+            {
+              "name": "test_mul[negative]",
+              "uid": "daf9c95d7090750a",
+              "parentUid": "b004000ef2fb804451ad4226c151f42c",
+              "status": "passed",
+              "time": {
+                "start": 1607616128615,
+                "stop": 1607616128615,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[-8, -0.2, 1.6]"
+              ]
+            },
+            {
+              "name": "test_mul[非数字]",
+              "uid": "72ed495532275e48",
+              "parentUid": "b004000ef2fb804451ad4226c151f42c",
+              "status": "failed",
+              "time": {
+                "start": 1607616128623,
+                "stop": 1607616128627,
+                "duration": 4
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "['mul', 5, '请输入数字']"
+              ]
+            }
+          ],
+          "uid": "b004000ef2fb804451ad4226c151f42c"
+        },
+        {
+          "name": "测试除法",
+          "children": [
+            {
+              "name": "test_div[3/2]",
+              "uid": "74c4c338ef2e5a7",
+              "parentUid": "29ade992281774a80778b0443ac27b7f",
+              "status": "passed",
+              "time": {
+                "start": 1607616128639,
+                "stop": 1607616128639,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[3, 2, 1.5]"
+              ]
+            },
+            {
+              "name": "test_div[100/2]",
+              "uid": "e20b53f25d7fd60d",
+              "parentUid": "29ade992281774a80778b0443ac27b7f",
+              "status": "passed",
+              "time": {
+                "start": 1607616128647,
+                "stop": 1607616128647,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[100, 2, 50]"
+              ]
+            },
+            {
+              "name": "test_div[3/9]",
+              "uid": "af466dc0bf80fefe",
+              "parentUid": "29ade992281774a80778b0443ac27b7f",
+              "status": "passed",
+              "time": {
+                "start": 1607616128655,
+                "stop": 1607616128655,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[3, 9, 0.33]"
+              ]
+            },
+            {
+              "name": "test_div[6.3/2.1]",
+              "uid": "b09753e755e26abe",
+              "parentUid": "29ade992281774a80778b0443ac27b7f",
+              "status": "passed",
+              "time": {
+                "start": 1607616128667,
+                "stop": 1607616128667,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[6.3, 2.1, 3]"
+              ]
+            },
+            {
+              "name": "test_div[2/1]",
+              "uid": "e3a1e74c0d51a878",
+              "parentUid": "29ade992281774a80778b0443ac27b7f",
+              "status": "failed",
+              "time": {
+                "start": 1607616128671,
+                "stop": 1607616128671,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[2, 1, 3]"
+              ]
+            },
+            {
+              "name": "test_div[6/0]",
+              "uid": "d6cdab0515de5389",
+              "parentUid": "29ade992281774a80778b0443ac27b7f",
+              "status": "failed",
+              "time": {
+                "start": 1607616128696,
+                "stop": 1607616128696,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "[6, 0, '除数不能为0']"
+              ]
+            }
+          ],
+          "uid": "29ade992281774a80778b0443ac27b7f"
+        }
+      ],
+      "uid": "d81e305ff02c2e297aa300b5dfb0f8bc"
+    }
+  ]
+}

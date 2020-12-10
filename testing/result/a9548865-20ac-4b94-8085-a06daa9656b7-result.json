@@ -1,0 +1,73 @@
+{
+  "name": "test_div[6.3/2.1]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "计算两数相除",
+      "status": "passed",
+      "start": 1607616128667,
+      "stop": 1607616128667
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "4544d9c5-0351-4b4a-bc35-d034aa0c83b4-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_div_datas",
+      "value": "[6.3, 2.1, 3]"
+    }
+  ],
+  "start": 1607616128667,
+  "stop": 1607616128667,
+  "uuid": "da5089a3-de3f-438d-8503-8d978f5b1b64",
+  "historyId": "24ff50405e85ac62744fde4a6730dbac",
+  "testCaseId": "b24b2d38f6b695372e56e25ef52ae72a",
+  "fullName": "test_calc.Test_Calc#test_div",
+  "labels": [
+    {
+      "name": "story",
+      "value": "测试除法"
+    },
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=4)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_Calc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-35VVH9N3"
+    },
+    {
+      "name": "thread",
+      "value": "10060-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

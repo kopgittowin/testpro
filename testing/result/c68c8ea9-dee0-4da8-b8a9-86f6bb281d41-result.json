@@ -1,0 +1,77 @@
+{
+  "name": "test_mul[非数字]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 'mulmulmulmulmul' == '请输入数字'\n  - 请输入数字\n  + mulmulmulmulmul",
+    "trace": "self = <testing.test_calc.Test_Calc object at 0x000002315F007670>\nget_calc = <python_code.calc.Calculator object at 0x000002315EFFF6A0>, get_mul_datas = ['mul', 5, '请输入数字']\n\n    @pytest.mark.run(order=3)\n    @allure.story('测试乘法')\n    def test_mul(self, get_calc, get_mul_datas):\n        result = None\n        # 调用 mul方法\n        try:\n            with allure.step('计算两数相乘'):\n                result = get_calc.mul(get_mul_datas[0], get_mul_datas[1])\n            if isinstance(result, float):\n                result = round(result, 2)\n        except Exception as e:\n            print(e)\n>       assert result == get_mul_datas[2]\nE       AssertionError: assert 'mulmulmulmulmul' == '请输入数字'\nE         - 请输入数字\nE         + mulmulmulmulmul\n\ntest_calc.py:83: AssertionError"
+  },
+  "steps": [
+    {
+      "name": "计算两数相乘",
+      "status": "passed",
+      "start": 1607616128623,
+      "stop": 1607616128623
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "b967f1e6-6f4b-44dd-bf8d-47ff33e9136f-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_mul_datas",
+      "value": "['mul', 5, '请输入数字']"
+    }
+  ],
+  "start": 1607616128623,
+  "stop": 1607616128627,
+  "uuid": "9e52623f-93af-40c5-98e8-08c272df5ed9",
+  "historyId": "03ee360667ca3cd0e7f289e774968f8c",
+  "testCaseId": "455fa48928a0a897933c08cc3cfecc84",
+  "fullName": "test_calc.Test_Calc#test_mul",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "story",
+      "value": "测试乘法"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=3)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_Calc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-35VVH9N3"
+    },
+    {
+      "name": "thread",
+      "value": "10060-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

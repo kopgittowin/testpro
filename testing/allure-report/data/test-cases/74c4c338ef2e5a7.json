@@ -1,0 +1,168 @@
+{
+  "uid": "74c4c338ef2e5a7",
+  "name": "test_div[3/2]",
+  "fullName": "test_calc.Test_Calc#test_div",
+  "historyId": "894ef35f4def0948dff5bbee79690028",
+  "time": {
+    "start": 1607616128639,
+    "stop": 1607616128639,
+    "duration": 0
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "get_calc",
+      "time": {
+        "start": 1607616128145,
+        "stop": 1607616128145,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0
+    },
+    {
+      "name": "get_div_datas",
+      "time": {
+        "start": 1607616128639,
+        "stop": 1607616128639,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0
+    }
+  ],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "计算两数相除",
+        "time": {
+          "start": 1607616128639,
+          "stop": 1607616128639,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0
+      }
+    ],
+    "attachments": [
+      {
+        "uid": "dd0ea03cba676417",
+        "name": "stdout",
+        "source": "dd0ea03cba676417.txt",
+        "type": "text/plain",
+        "size": 65
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 1,
+    "hasContent": true,
+    "shouldDisplayMessage": false,
+    "attachmentsCount": 1
+  },
+  "afterStages": [
+    {
+      "name": "get_div_datas::0",
+      "time": {
+        "start": 1607616128643,
+        "stop": 1607616128643,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0
+    }
+  ],
+  "labels": [
+    {
+      "name": "story",
+      "value": "测试除法"
+    },
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=4)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_Calc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-35VVH9N3"
+    },
+    {
+      "name": "thread",
+      "value": "10060-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_div_datas",
+      "value": "[3, 2, 1.5]"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": [
+      "run(order=4)"
+    ]
+  },
+  "source": "74c4c338ef2e5a7.json",
+  "parameterValues": [
+    "[3, 2, 1.5]"
+  ]
+}

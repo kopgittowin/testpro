@@ -1,0 +1,168 @@
+{
+  "uid": "34b97fc684f64d01",
+  "name": "test_add[float&int]",
+  "fullName": "test_calc.Test_Calc#test_add",
+  "historyId": "7d8f39575121767838a16e9ad4090fb6",
+  "time": {
+    "start": 1607616128463,
+    "stop": 1607616128463,
+    "duration": 0
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "get_calc",
+      "time": {
+        "start": 1607616128145,
+        "stop": 1607616128145,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0
+    },
+    {
+      "name": "get_add_datas",
+      "time": {
+        "start": 1607616128459,
+        "stop": 1607616128463,
+        "duration": 4
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0
+    }
+  ],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "计算两数相加的和",
+        "time": {
+          "start": 1607616128463,
+          "stop": 1607616128463,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0
+      }
+    ],
+    "attachments": [
+      {
+        "uid": "114cfdfba5d6e035",
+        "name": "stdout",
+        "source": "114cfdfba5d6e035.txt",
+        "type": "text/plain",
+        "size": 70
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 1,
+    "hasContent": true,
+    "shouldDisplayMessage": false,
+    "attachmentsCount": 1
+  },
+  "afterStages": [
+    {
+      "name": "get_add_datas::0",
+      "time": {
+        "start": 1607616128463,
+        "stop": 1607616128463,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0
+    }
+  ],
+  "labels": [
+    {
+      "name": "story",
+      "value": "测试加法"
+    },
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_Calc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-35VVH9N3"
+    },
+    {
+      "name": "thread",
+      "value": "10060-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_add_datas",
+      "value": "[50.6, 45, 95.6]"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": [
+      "run(order=1)"
+    ]
+  },
+  "source": "34b97fc684f64d01.json",
+  "parameterValues": [
+    "[50.6, 45, 95.6]"
+  ]
+}

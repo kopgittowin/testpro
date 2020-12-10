@@ -1,0 +1,73 @@
+{
+  "name": "test_add[float&int]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "计算两数相加的和",
+      "status": "passed",
+      "start": 1607616128463,
+      "stop": 1607616128463
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "cc30505c-27bc-468b-a8dd-e6ef0a2475d3-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_add_datas",
+      "value": "[50.6, 45, 95.6]"
+    }
+  ],
+  "start": 1607616128463,
+  "stop": 1607616128463,
+  "uuid": "556ea94b-5e0d-4b74-95cf-c835c84ecd7b",
+  "historyId": "7d8f39575121767838a16e9ad4090fb6",
+  "testCaseId": "be0c9d8822f4a974f841e4560a980f66",
+  "fullName": "test_calc.Test_Calc#test_add",
+  "labels": [
+    {
+      "name": "story",
+      "value": "测试加法"
+    },
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_Calc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-35VVH9N3"
+    },
+    {
+      "name": "thread",
+      "value": "10060-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

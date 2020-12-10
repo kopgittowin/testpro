@@ -1,0 +1,77 @@
+{
+  "name": "test_div[2/1]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 2.0 == 3",
+    "trace": "self = <testing.test_calc.Test_Calc object at 0x000002315F077A00>\nget_calc = <python_code.calc.Calculator object at 0x000002315EFFF6A0>, get_div_datas = [2, 1, 3]\n\n    @pytest.mark.run(order=4)\n    @allure.story('测试除法')\n    def test_div(self, get_calc, get_div_datas):\n        result = None\n        # 调用 div方法\n        try:\n            with allure.step('计算两数相除'):\n                result = get_calc.div(get_div_datas[0], get_div_datas[1])\n            if isinstance(result, float):\n                result = round(result, 2)\n        except Exception as e:\n            print(e)\n>       assert result == get_div_datas[2]\nE       assert 2.0 == 3\n\ntest_calc.py:55: AssertionError"
+  },
+  "steps": [
+    {
+      "name": "计算两数相除",
+      "status": "passed",
+      "start": 1607616128671,
+      "stop": 1607616128671
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "ca2e2df7-476f-4314-996a-135f67cb6031-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_div_datas",
+      "value": "[2, 1, 3]"
+    }
+  ],
+  "start": 1607616128671,
+  "stop": 1607616128671,
+  "uuid": "91821487-23c5-4f31-b170-e516a9dd2ab6",
+  "historyId": "53dd00b50bb4eae8dce74421fce21562",
+  "testCaseId": "b24b2d38f6b695372e56e25ef52ae72a",
+  "fullName": "test_calc.Test_Calc#test_div",
+  "labels": [
+    {
+      "name": "story",
+      "value": "测试除法"
+    },
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=4)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_Calc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-35VVH9N3"
+    },
+    {
+      "name": "thread",
+      "value": "10060-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

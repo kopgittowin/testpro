@@ -1,0 +1,73 @@
+{
+  "name": "test_mul[float]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "计算两数相乘",
+      "status": "passed",
+      "start": 1607616128587,
+      "stop": 1607616128587
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "f28b4257-4da5-4ac8-81c8-ec7c0b92e6ae-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_mul_datas",
+      "value": "[0.5, 0.1, 0.05]"
+    }
+  ],
+  "start": 1607616128587,
+  "stop": 1607616128587,
+  "uuid": "1c5a0041-88fa-4d3f-bf2a-1214db4842c4",
+  "historyId": "011ba9ba671d2ac09ce96270e7e094d9",
+  "testCaseId": "455fa48928a0a897933c08cc3cfecc84",
+  "fullName": "test_calc.Test_Calc#test_mul",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "story",
+      "value": "测试乘法"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=3)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_Calc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-35VVH9N3"
+    },
+    {
+      "name": "thread",
+      "value": "10060-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

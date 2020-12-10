@@ -1,0 +1,4 @@
+开始加法计算
+add方法测试数据['', 5, '请输入数字']
+can only concatenate str (not "int") to str
+结束计算

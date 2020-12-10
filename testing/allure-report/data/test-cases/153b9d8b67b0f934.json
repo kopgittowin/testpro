@@ -1,0 +1,180 @@
+{
+  "uid": "153b9d8b67b0f934",
+  "name": "test_sub[非数字]",
+  "fullName": "test_calc.Test_Calc#test_sub",
+  "historyId": "d2de67b25c6c16ade5907a9c0419942d",
+  "time": {
+    "start": 1607616128567,
+    "stop": 1607616128567,
+    "duration": 0
+  },
+  "status": "failed",
+  "statusMessage": "AssertionError: assert None == '请输入数字'",
+  "statusTrace": "self = <testing.test_calc.Test_Calc object at 0x000002315F073610>\nget_calc = <python_code.calc.Calculator object at 0x000002315EFFF6A0>, get_sub_datas = ['asd', 8, '请输入数字']\n\n    @pytest.mark.run(order=2)\n    @allure.story('测试减法')\n    def test_sub(self, get_calc, get_sub_datas):\n        result = None\n        # 调用 div方法\n        try:\n            with allure.step('计算两数相减'):\n                result = get_calc.sub(get_sub_datas[0], get_sub_datas[1])\n            if isinstance(result, float):\n                result = round(result, 2)\n        except Exception as e:\n            print(e)\n>       assert result == get_sub_datas[2]\nE       AssertionError: assert None == '请输入数字'\n\ntest_calc.py:69: AssertionError",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "get_calc",
+      "time": {
+        "start": 1607616128145,
+        "stop": 1607616128145,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0
+    },
+    {
+      "name": "get_sub_datas",
+      "time": {
+        "start": 1607616128563,
+        "stop": 1607616128567,
+        "duration": 4
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0
+    }
+  ],
+  "testStage": {
+    "status": "failed",
+    "statusMessage": "AssertionError: assert None == '请输入数字'",
+    "statusTrace": "self = <testing.test_calc.Test_Calc object at 0x000002315F073610>\nget_calc = <python_code.calc.Calculator object at 0x000002315EFFF6A0>, get_sub_datas = ['asd', 8, '请输入数字']\n\n    @pytest.mark.run(order=2)\n    @allure.story('测试减法')\n    def test_sub(self, get_calc, get_sub_datas):\n        result = None\n        # 调用 div方法\n        try:\n            with allure.step('计算两数相减'):\n                result = get_calc.sub(get_sub_datas[0], get_sub_datas[1])\n            if isinstance(result, float):\n                result = round(result, 2)\n        except Exception as e:\n            print(e)\n>       assert result == get_sub_datas[2]\nE       AssertionError: assert None == '请输入数字'\n\ntest_calc.py:69: AssertionError",
+    "steps": [
+      {
+        "name": "计算两数相减",
+        "time": {
+          "start": 1607616128567,
+          "stop": 1607616128567,
+          "duration": 0
+        },
+        "status": "broken",
+        "statusMessage": "TypeError: unsupported operand type(s) for -: 'str' and 'int'\n",
+        "statusTrace": "  File \"D:\\testpro\\testing\\test_calc.py\", line 64, in test_sub\n    result = get_calc.sub(get_sub_datas[0], get_sub_datas[1])\n  File \"D:\\testpro\\python_code\\calc.py\", line 18, in sub\n    return a - b\n",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "stepsCount": 0,
+        "hasContent": true,
+        "shouldDisplayMessage": true,
+        "attachmentsCount": 0
+      }
+    ],
+    "attachments": [
+      {
+        "uid": "d375ea5271e76e7b",
+        "name": "stdout",
+        "source": "d375ea5271e76e7b.txt",
+        "type": "text/plain",
+        "size": 134
+      }
+    ],
+    "parameters": [],
+    "stepsCount": 1,
+    "hasContent": true,
+    "shouldDisplayMessage": true,
+    "attachmentsCount": 1
+  },
+  "afterStages": [
+    {
+      "name": "get_sub_datas::0",
+      "time": {
+        "start": 1607616128575,
+        "stop": 1607616128575,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0
+    }
+  ],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "story",
+      "value": "测试减法"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=2)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_Calc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-35VVH9N3"
+    },
+    {
+      "name": "thread",
+      "value": "10060-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_sub_datas",
+      "value": "['asd', 8, '请输入数字']"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [
+      {
+        "name": "Product defects",
+        "matchedStatuses": [],
+        "flaky": false
+      }
+    ],
+    "tags": [
+      "run(order=2)"
+    ]
+  },
+  "source": "153b9d8b67b0f934.json",
+  "parameterValues": [
+    "['asd', 8, '请输入数字']"
+  ]
+}

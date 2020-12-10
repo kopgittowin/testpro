@@ -1,0 +1,81 @@
+{
+  "name": "test_sub[非数字]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert None == '请输入数字'",
+    "trace": "self = <testing.test_calc.Test_Calc object at 0x000002315F073610>\nget_calc = <python_code.calc.Calculator object at 0x000002315EFFF6A0>, get_sub_datas = ['asd', 8, '请输入数字']\n\n    @pytest.mark.run(order=2)\n    @allure.story('测试减法')\n    def test_sub(self, get_calc, get_sub_datas):\n        result = None\n        # 调用 div方法\n        try:\n            with allure.step('计算两数相减'):\n                result = get_calc.sub(get_sub_datas[0], get_sub_datas[1])\n            if isinstance(result, float):\n                result = round(result, 2)\n        except Exception as e:\n            print(e)\n>       assert result == get_sub_datas[2]\nE       AssertionError: assert None == '请输入数字'\n\ntest_calc.py:69: AssertionError"
+  },
+  "steps": [
+    {
+      "name": "计算两数相减",
+      "status": "broken",
+      "statusDetails": {
+        "message": "TypeError: unsupported operand type(s) for -: 'str' and 'int'\n",
+        "trace": "  File \"D:\\testpro\\testing\\test_calc.py\", line 64, in test_sub\n    result = get_calc.sub(get_sub_datas[0], get_sub_datas[1])\n  File \"D:\\testpro\\python_code\\calc.py\", line 18, in sub\n    return a - b\n"
+      },
+      "start": 1607616128567,
+      "stop": 1607616128567
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "1a8e1c79-cfec-49e5-afa9-996750ed4b7e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "get_sub_datas",
+      "value": "['asd', 8, '请输入数字']"
+    }
+  ],
+  "start": 1607616128567,
+  "stop": 1607616128567,
+  "uuid": "1effd73a-1a11-40cb-bc1a-4595c5c96c6d",
+  "historyId": "d2de67b25c6c16ade5907a9c0419942d",
+  "testCaseId": "f2e2f1b1b546d3f480af7c675855a5e5",
+  "fullName": "test_calc.Test_Calc#test_sub",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器"
+    },
+    {
+      "name": "story",
+      "value": "测试减法"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=2)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_Calc"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-35VVH9N3"
+    },
+    {
+      "name": "thread",
+      "value": "10060-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}
